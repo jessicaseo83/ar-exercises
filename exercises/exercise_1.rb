@@ -11,7 +11,7 @@ bernaby = Store.create(
   womens_apparel: true,
 )
 
-richimond = Store.create(
+richmond = Store.create(
   name: "Richmond",
   annual_revenue: 1260000,
   mens_apparel: false,
@@ -24,3 +24,5 @@ gastown = Store.create(
   mens_apparel: true,
   womens_apparel: false
 )
+
+puts Store.count
